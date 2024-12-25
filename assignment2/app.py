@@ -11,7 +11,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Authenticate with Google Generative AI (Replace with your API key)
-genai.configure(api_key="AIzaSyAOTp4HlDO72p0RQ8PU74uvitsdtrKHRlQ")
+genai.configure(api_key="GEMINI_API")
 
 @app.route('/')
 def index():
